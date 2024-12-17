@@ -11,7 +11,7 @@ pipeline {
         stage('run some linux command') {
             steps {
                 sh 'date'
-				sh 'cal'
+		sh 'cal'
             }        
         }
 	    stage( 'Check Parameters') {
